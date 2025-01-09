@@ -1,0 +1,155 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    height: 100vh;
+    color: #333;
+}
+
+/* Sidebar */
+.sidebar {
+    background-color: #f4f4f4;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar .logo h1 {
+    font-size: 24px;
+    margin: 0 0 20px;
+    color: #e63946;
+}
+
+.sidebar nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar nav ul li {
+    margin: 10px 0;
+}
+
+.sidebar nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+
+.sidebar nav ul li a.active,
+.sidebar nav ul li a:hover {
+    color: #e63946;
+    font-weight: bold;
+}
+
+/* Main Content */
+main {
+    flex-grow: 1;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    position: relative;
+}
+
+/* Header */
+.header {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.theme-toggle button {
+    font-size: 20px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+/* Intro Section */
+.intro h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.intro h2 span {
+    color: #e63946;
+}
+
+.intro h1 {
+    font-size: 36px;
+    margin: 10px 0;
+    color: #333;
+}
+
+.intro .highlight {
+    color: #e63946;
+}
+
+.intro p {
+    font-size: 18px;
+    margin: 10px 0 20px;
+    line-height: 1.5;
+}
+
+.cta-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #e63946;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    background-color: #d32f2f;
+}
+
+/* Profile Picture */
+.profile-pic {
+    margin-top: 0px;
+    padding-left: 0px;
+    padding-bottom: 0%;
+}
+
+.profile-pic img {
+    border-radius: 0px;
+    width: 35px;
+    height: 60px;
+    padding-left: 300px;
+}
+/* Profile Picture to Top Right */
+/* Profile Picture to Top Right */
+.profile-pic {
+    position: absolute;
+    top: 20px; /* Adjust spacing from the top */
+    right: 20px; /* Adjust spacing from the right */
+    width: 150px; /* Adjust the size of the image */
+    height: auto;
+    border-radius: 50%; /* Make the image circular */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding-right: 200px;
+}
+/* Add this to your style.css */
+
+   /* Add this to your style.css */
+#clock {
+    
+        position: absolute;
+        bottom: 140%; /* Adjusts the vertical position */
+        left: 82%;
+        transform: translateX(-50%);
+        font-size: 24px; /* Adjust font size as needed */
+        font-weight: bold;
+        color: black; /* Adjust color as needed */
+        z-index: 1000; /* Ensures it's above other elements */
+    
+}
+
+

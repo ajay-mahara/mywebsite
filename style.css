@@ -2,7 +2,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    display: flex;
+   
     height: 100vh;
     color: #333;
 }
@@ -139,17 +139,3 @@ main {
 /* Add this to your style.css */
 
    /* Add this to your style.css */
-#clock {
-    
-        position: absolute;
-        bottom: 140%; /* Adjusts the vertical position */
-        left: 82%;
-        transform: translateX(-50%);
-        font-size: 24px; /* Adjust font size as needed */
-        font-weight: bold;
-        color: black; /* Adjust color as needed */
-        z-index: 1000; /* Ensures it's above other elements */
-    
-}
-
-

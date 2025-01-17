@@ -14,6 +14,11 @@ body {
     padding: 20px;
 }
 
+.h3 img{
+    align-items="center";
+    height=400px;
+    width=200px;
+}
 /* Header Styles */
 .header {
     background: #333;
